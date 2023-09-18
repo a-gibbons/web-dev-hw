@@ -1,0 +1,11 @@
+One of the main advantages of using a text editor is that it allows you to create and edit plain text files quickly and efficiently. 
+Text editors are lightweight and fast, which means they can be used to edit large files without any lag. 
+Additionally, text editors are highly customizable, allowing you to configure them to match your workflow and coding preferences. 
+Finally, text editors are often free and open source, meaning you can use them without any cost and contribute to their development if you have the skills and interests. 
+However, because they don't support rich content like images or formatting, their use is limited when it comes to more complex information.
+
+
+
+Relative URLs are often preferred over absolute URLs because they are shorter and more portable. 
+However, it's important to note that absolute URLs contain more information than relative URLs. 
+One fundamental limitation of relative URLs is that they can only be used to reference links on the same server as the page that contains them.
