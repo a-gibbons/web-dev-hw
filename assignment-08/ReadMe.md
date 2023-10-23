@@ -1,10 +1,11 @@
 Homework for my assignment 8
 Showing:
-
-Div
-Class
-Span
-Iframe
-Escape character
-Audio
-Video
+<ul>
+<li>Div</li>
+<li>Class</li>
+<li>Span</li>
+<li>Iframe</li>
+<li>Escape character</li>
+<li>Audio</li>
+<li>Video</li>
+</ul>
