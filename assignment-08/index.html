@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta data, not shown to site visiters-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Ashley Gibbons">
+    <meta name="Ocean Sounds" content="Sounds that have been recorded in the ocean">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sounds from the Sea</title>
+    <!-- Style additions to be used in div, class and span-->
+    <style>
+        body {
+            background-color: rgb(242, 235, 223);
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+
+        .smalldiv {
+            background-color: rgb(160, 59, 148);
+            border: 1pt solid black;
+            text-align: center;
+        }
+
+        .container {    
+            background-color: rgb(77, 16, 171);
+            border: 1pt solid black;
+            text-align: center;
+        }
+
+        .media {
+            background-color: rgb(54, 32, 110);
+            width: 600;
+            margin: auto;
+            padding: 20px;
+            color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<!-- all style elements inhereted from the body style assigned above-->
+<body>
+    <!-- This is the title of the page-->
+    <div id="title" class="smalldiv">
+        <h1>A Collection of Sounds from the Sea</h1>
+    </div>
+    <br>
+    <!-- These are photos by Adam Azim and Filipp Romanovskiof of the ocean-->
+    <div id="introduction" class="container">
+        <h2>The ocean is a beautiful place</h2>
+        <img src="images/azim.jpg" height="757" width="768" alt="an aerial view of the ocean">
+        <br>
+        <h2>The further we dive down &hellip;</h2>
+        <img src="images/filipp.jpg" height="556" width="568" alt="two jellyfish diving down">
+        <br>
+        <h3>The stranger things might get</h3>
+    </div>
+    <br>
+    <!-- These are different audio tracks saved localy-->
+    <div id="recordings" class="media">
+        <h1>Unidentified Sounds</h1>
+        <figure>
+            <figcaption>&quot;Slow Down&quot;</figcaption>
+            <audio controls src="media/Slow Down.mp3"></audio>
+        </figure>
+        <figure>
+            <figcaption>&quot;Julia&quot;</figcaption>
+            <audio controls src="media/Julia.mp3"></audio>
+        </figure>
+        <figure>
+            <figcaption>&quot;Upsweep&quot;</figcaption>
+            <audio controls src="media/Upsweep.mp3"></audio>
+        </figure>
+    </div>
+</body>
+</html>
