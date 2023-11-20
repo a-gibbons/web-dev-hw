@@ -1,0 +1,46 @@
+header {
+    background-color: rgb(38,1,1);
+    font-family: sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0.25em;
+}
+
+.menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 10pt;
+    color: #fff;
+    background-color: rgb(140,97,59);
+    line-height: 2.1em;
+}
+
+.menu-item:hover {
+    background-color: rgb(171,138,104);
+    color: #fff;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: Jungle;
+    word-spacing: 5px;
+}
+
+.paragraphs {
+    background-color: rgb(171,138,104);
+    width: 850px;
+    height: 100px;
+    border: 10px solid rgb(38,1,1);
+    padding: 15px;
+    margin: 10px;
+    overflow: auto;
+    word-spacing: 2px;
+    color: rgb(255,232,191);
+}
