@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Favorite Shorts by Edgar Allen Poe</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="What is That? (& Don't Touch Them!)">
+        <meta name="author" content="Ashley Gibbons">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/fonts.css" type="text/css" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    </head>
+    <style>
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+    </style>
+
+    <body>
+
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Stories</a>
+            <div class="dropdown-content">
+              <a href="../pages/story1.html">“The Cask of Amontillado”</a>
+              <a href="../pages/story2.html">"The Raven"</a>
+            </div>
+          </li>
+        </ul>       
+    <script>
+        function CheckForm()
+    {
+      var fName;
+      Name = document.getElementById("fName").value;
+      if(fName == "")
+      {
+        window.alert("First Name is Required.")
+      }
+      
+    }
+    </script>
+</head>
+    <h1>Hello!<br>
+<br>
+      If you need to contact me, please fill out the form below<br>
+      and I will get back you as soon as I can!
+    </h1>
+<br>
+<body>
+  <table>
+      <tr>
+        <td>First Name</td>
+        <td><input type="text" id="fName"></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><input type="text" id="lName"></td>
+      </tr>
+      <tr>
+        <td>Phone Number</td>
+        <td><input type="text" id="txtPhone"></td>
+      </tr>
+      <tr>
+        <td>Your Email</td>
+        <td><input type="text" id="eAddress"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button id="btnSubmit" onclick="CheckForm();">Submit</button></td>
+      </tr>
+  </table>
+<br>
+  Would you like to sign up for our newsletter?<br>
+      <input type="radio" name="T'sandC's" value="blue">Yes<br>
+      <input type="radio" name="T'sandC's" value="red">No<br><br>
+  <div id="message"></div>     
+</body>

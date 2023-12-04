@@ -1,0 +1,111 @@
+body {
+  background-color: #F0F0F2;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(20,25,38);
+}
+
+h1{
+      font-family: 'Franklin Gothic Medium';
+      text-align: left;
+      font-size: 35px;
+      font-style: italic;
+      color: #0B0C0D;
+
+}
+  
+  li {
+    float: left;
+}
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: #F0F0F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(20,25,38);
+}
+  
+  li.dropdown {
+    display: inline-block;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(20,25,38);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .dropdown-content a {
+    color: #F0F0F2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  .dropdown-content a:hover {background-color: #4F5559;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.info-card {
+  font-family: 'Franklin Gothic Medium';
+  text-align: left;
+  color: #0B0C0D;
+  font-size:x-large;
+  font-style: italic;
+  padding: 16px;
+  
+}
+
+.titles{
+  color: black;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 45px;
+  word-spacing: 2pt;
+  text-align: center;
+  padding: 12px;
+}
+
+.element-style {
+  background-color: #0B0C0D;
+  color: #4F5559;
+  font-family: cursive;
+  word-spacing: 2pt;
+  font-size: 35px;
+  padding: 2em;
+  text-align: center;
+  
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: transparent;
+  border: transparent;
+}
+.telling {
+  background-color: #A69677;
+  text-align: center;
+  font-family: 'afl';
+  font-size: larger;
+  word-spacing: 3pt;
+  padding: 10px;
+}
