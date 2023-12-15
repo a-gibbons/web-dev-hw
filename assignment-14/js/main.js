@@ -1,10 +1,14 @@
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
 
 
 // first line
-ctx.drawImage(img,10,10);
+
 
 
 
