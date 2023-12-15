@@ -1,4 +1,5 @@
 @font-face {
     font-family: underwood_champion;
-    src: url(fonts.css/underwood_champion);
+    src: url(./css/underwood_champion);
+    font-style: normal;
 }
